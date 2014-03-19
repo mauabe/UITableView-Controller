@@ -14,13 +14,13 @@
 		72767AC318CE34740084ECEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72767AC218CE34740084ECEA /* main.m */; };
 		72767AC718CE34740084ECEA /* TVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72767AC618CE34740084ECEA /* TVCAppDelegate.m */; };
 		72767ACA18CE34740084ECEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72767AC818CE34740084ECEA /* Main.storyboard */; };
-		72767ACD18CE34740084ECEA /* TVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72767ACC18CE34740084ECEA /* TVCViewController.m */; };
 		72767ACF18CE34740084ECEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72767ACE18CE34740084ECEA /* Images.xcassets */; };
 		72767AD618CE34740084ECEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72767AD518CE34740084ECEA /* XCTest.framework */; };
 		72767AD718CE34740084ECEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72767AB618CE34740084ECEA /* Foundation.framework */; };
 		72767AD818CE34740084ECEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72767ABA18CE34740084ECEA /* UIKit.framework */; };
 		72767AE018CE34740084ECEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72767ADE18CE34740084ECEA /* InfoPlist.strings */; };
 		72767AE218CE34740084ECEA /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72767AE118CE34740084ECEA /* UITableViewController_ChallengeTests.m */; };
+		72767AED18CE52C80084ECEA /* TVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72767AEC18CE52C80084ECEA /* TVCController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		72767AC518CE34740084ECEA /* TVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVCAppDelegate.h; sourceTree = "<group>"; };
 		72767AC618CE34740084ECEA /* TVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVCAppDelegate.m; sourceTree = "<group>"; };
 		72767AC918CE34740084ECEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		72767ACB18CE34740084ECEA /* TVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVCViewController.h; sourceTree = "<group>"; };
-		72767ACC18CE34740084ECEA /* TVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVCViewController.m; sourceTree = "<group>"; };
 		72767ACE18CE34740084ECEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		72767AD418CE34740084ECEA /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72767AD518CE34740084ECEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		72767ADD18CE34740084ECEA /* UITableViewController ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		72767ADF18CE34740084ECEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72767AE118CE34740084ECEA /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		72767AEB18CE52C80084ECEA /* TVCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCController.h; sourceTree = "<group>"; };
+		72767AEC18CE52C80084ECEA /* TVCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				72767AC518CE34740084ECEA /* TVCAppDelegate.h */,
 				72767AC618CE34740084ECEA /* TVCAppDelegate.m */,
 				72767AC818CE34740084ECEA /* Main.storyboard */,
-				72767ACB18CE34740084ECEA /* TVCViewController.h */,
-				72767ACC18CE34740084ECEA /* TVCViewController.m */,
+				72767AEB18CE52C80084ECEA /* TVCController.h */,
+				72767AEC18CE52C80084ECEA /* TVCController.m */,
 				72767ACE18CE34740084ECEA /* Images.xcassets */,
 				72767ABD18CE34740084ECEA /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72767AED18CE52C80084ECEA /* TVCController.m in Sources */,
 				72767AC718CE34740084ECEA /* TVCAppDelegate.m in Sources */,
 				72767AC318CE34740084ECEA /* main.m in Sources */,
-				72767ACD18CE34740084ECEA /* TVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
